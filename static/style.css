@@ -1,0 +1,41 @@
+.warna-bg {
+    background-color: #333
+}
+
+.black-button {
+    background-color: #333; /* Warna baby blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.black-button:hover {
+    background-color: #555
+}
+
+.black-button-1 {
+    width: 10%;
+}
+
+.black-button-2 {
+    background-color: #333; /* Warna baby blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 10%;
+}
+
+
+.output-image {
+    display: block;
+    margin: auto;
+}

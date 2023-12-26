@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Image Converter</title>
+</head>
+<body>
+
+    <!-- As a heading -->
+    <header class="warna-bg text-white text-center py-2">
+        <h2>Tugas Besar Pengolahan Citra Digital</h2>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-4" style="height: 100vh;">
+        <h1 class="fs-2 text d-flex justify-content-center">Edit your images online!</h1><br>
+            <div class="mb-3">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{ url_for('static', filename='asset/1.png') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Image to Cartoon</h5>
+                            <p class="card-text">Mengubah foto menjadi kartun</p>
+                            <a href="/convert_cartoon" class="btn black-button">Convert</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Card 2 -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{ url_for('static', filename='asset/2.jpg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Remove Background Image</h5>
+                            <p class="card-text">Menghapus latar belakang atau background foto</p>
+                            <a href="/remove_background" class="btn black-button">Convert</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Card 3 -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{ url_for('static', filename='asset/3.jpeg') }}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Filter Image Anaglyph</h5>
+                            <p class="card-text">Menggabungkan dua gambar dengan warna yang berbeda dan memberikan efek tiga dimensi</p>
+                            <a href="/filter_anaglyph" class="btn black-button">Convert</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>        
+
+    <footer class="py-2 warna-bg text-center text-white fixed-bottom w-100 warna-bg">
+        <h5>Gabriel Azarya Krishna Lokajaya | Tiara Luthfiana Puspa Marizka</h5>
+    </footer>
+
+</body>
+</html>

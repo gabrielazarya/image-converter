@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #daf0ff
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    padding: 100px; 
+    box-sizing: border-box; 
+    background-color: aliceblue;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+
+.tengah {
+    text-align: center;
+}
+
+/* Card styles */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styles */
+.black-button {
+    background-color: #333; /* Warna baby blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.black-button:hover {
+    background-color: #555
+}
+
+.black-button-1 {
+    width: 10%;
+}
